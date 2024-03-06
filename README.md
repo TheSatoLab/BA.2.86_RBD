@@ -1,5 +1,5 @@
 # BA.2.86_RBD
-A supplemental table for the GISAID datasets used in the following study.
+The supplemental tables for the GISAID datasets used in the following study.
 
 Yajima et al. 2024. An RBD-up triggering structure of SARS-CoV-2 BA.2.86 Spike upon ACE2 binding. *XXX*. doi: XXX/XXX
 
