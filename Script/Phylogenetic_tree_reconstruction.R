@@ -9,7 +9,7 @@ library(ggplot2)
 library(ggtree)
 
 ### Change working directory
-dir <- "/Users/chainorato/Desktop/JN.1_RBD_project/"
+dir <- "~/Desktop/JN.1_RBD_project/"
 setwd(dir)
 
 #################### Retrieve metadata of SARS-CoV-2 subvariants ####################
