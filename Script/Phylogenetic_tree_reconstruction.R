@@ -109,7 +109,7 @@ data_fasta_filtered$label <- paste('>', data_fasta_filtered$label, sep="")
 #################### Visualize a phylogenetic tree ####################
 
 ### Read the tree after removing outliers
-jn.1_tree <- read.tree("gisaid_hcov-19_2024_03_01_06.fasta.edited.aln.trimal.trimmed.outlier_filtered.treefile")
+jn.1_tree <- read.tree("gisaid_hcov-19_2024_03_01_06.fasta.edited.aln.trimal.trimmed.outlier_filtered.treefile") # figure_1A.nwk
 # write.table(str_split(jn.1_tree$tip.label, "\\|", simplify=T)[,2], "240301_EPI_set_filtered_list.tsv", col.names=F, row.names=F, sep="\n", quote=F)
 
 jn.1_tree$tip.label <- str_split(jn.1_tree$tip.label, "\\|", simplify=T)[,1]
