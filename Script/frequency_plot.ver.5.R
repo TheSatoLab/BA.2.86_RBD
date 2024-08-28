@@ -11,17 +11,16 @@ args = commandArgs(trailingOnly=T)
 
 ##########args##########
 #Change when using new input
-download_date <- args[1]
+download_date <- "2024-02-19"
 download.date <- as.Date(download_date)
-out_prefix <- args[2]
+out_prefix <- "2024_02_19" 
 #input
-metadata.name <- args[3]
-mut.info.name <- args[4]
-nextclade.name <- args[5]
+metadata.name <- "metadata.tsv"
+mut.info.name <- "metadata.mut_long.tsv"
+nextclade.name <- "nextclade.tsv"
 
 #output
-out.prefix <- args[5]
-pdf.observed.name <- paste(out.prefix,".method1.observed.pdf",sep="")
+pdf.observed.name <- paste(out_prefix,".method1.observed.pdf",sep="")
 tsv.ID.name <- paste(out_prefix,".freq.id_list.csv",sep="")
 
 dir <- ""
